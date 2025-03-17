@@ -1,4 +1,4 @@
-# Student Management System
+# Learning Clean Architecture
 
 ## 🏗️ Clean Architecture Project Structure
 This project follows the **Clean Architecture** approach to ensure **scalability, maintainability, and testability**.
@@ -93,31 +93,3 @@ StudentManagementSystem/
 - `Domain` **must not depend** on `Application`, `Infrastructure`, or `Presentation`.  
 - `Application` **must not depend** on `Infrastructure` or `Presentation`.  
 - `Presentation` **must not directly access** `Infrastructure`.  
-
-## 🚀 How to Run the Project
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-repo/student-management.git
-   cd student-management
-   ```
-2. Build the solution:
-   ```sh
-   dotnet build
-   ```
-3. Apply database migrations:
-   ```sh
-   dotnet ef database update
-   ```
-4. Run the API:
-   ```sh
-   dotnet run
-   ```
-
-## 🧪 Running Tests
-To run unit tests:
-```sh
-dotnet test
-```
-
-## 📜 License
-This project is licensed under the MIT License. Feel free to use and modify it as needed!
